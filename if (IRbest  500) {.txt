@@ -1,0 +1,45 @@
+ if (IRbest < 500) {
+    switch (SEbest) {
+      case 0: richtung = 90; break;
+      case 1: richtung = 180; break;
+      case 2: richtung = 270; break;
+      case 3: richtung = 270; break;
+      case 4: richtung = 210; break;
+      case 5: richtung = 230; break;
+      case 6: richtung = 330; break;
+      case 7: richtung = 330; break;
+      case 8: richtung = 180; break;
+      case 9: richtung = 190; break;
+      case 10: richtung = 290; break;
+      case 11: richtung = 290; break;
+      case 12: richtung = 250; break;
+      case 13: richtung = 250; break;
+      case 14: richtung = 180; break;
+      case 15: richtung = 0; break;
+    }
+  }
+  else if (IRbest >= 500 && IRbest < 900) {
+    switch (SEbest) {
+      case 0: richtung = 90; break;
+      case 1: richtung = 290; break;
+      case 2: richtung = 200; break;
+      case 3: richtung = 340; break;
+      case 4: richtung = 130; break;
+      case 5: richtung = 290; break;
+      case 6: richtung = 250; break;
+      case 7: richtung = 30; break;
+      case 8: richtung = 100; break;
+      case 9: richtung = 270; break;
+      case 10: richtung = 220; break;
+      case 11: richtung = 10; break;
+      case 12: richtung = 180; break;
+      case 13: richtung = 300; break;
+      case 14: richtung = 270; break;
+      case 15: richtung = 50; break;
+    }
+  }
+  else {
+    SEbest = -1;
+    richtung = -1;
+  }
+}
